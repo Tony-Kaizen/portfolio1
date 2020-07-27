@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;300;400;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;700&display=swap'); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Libre Franklin', sans-serif;
+  /* font-family: 'Oswald', sans-serif; */
+}
+
+section {
+  padding: 25px;
+}
+
+::selection {
+  background-color: crimson;
+}
+
+.switch_wrapper {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+
+.navbar {
+  background-color: #000;
+}
+
+.jumbotron {
+  background: 
+  /* top, transparent red */ 
+  linear-gradient(
+    rgba(0, 0, 0, 0.8), 
+    rgba(0, 0, 0, 0.8)
+  ),
+  /* bottom, image */
+  url(/IMG/code-img2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Material Icons */
+#passion span {
+  font-size: 70px;
+}
+
+/* Skill Icons */
+.skill-icon {
+  height: 100px;
+}
+
+/* Contact Icons */
+#contact i {
+  font-size: 35px;
+  padding: 0 10px;
+  color: #000;
+}
+
+#contact i:hover {
+  color: crimson;
+}
+
+/* Footer */
+footer {
+  background-color: #000;
+}
